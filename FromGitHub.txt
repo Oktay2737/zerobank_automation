@@ -1,5 +1,0 @@
-this file is added from GitHub directly to simulate Repo has commits we do not have already
-
-dosyaya yeni bir satır ekledim
-
-intelliji den bir satır daha ekledim
