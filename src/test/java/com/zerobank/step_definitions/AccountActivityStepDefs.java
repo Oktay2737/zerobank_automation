@@ -25,10 +25,7 @@ public class AccountActivityStepDefs {
         loginPage.login();
 
     }
-    @Then("select {string}")
-    public void select(String pageLinkId) {
-        OnlineBankingPage.selectPage(pageLinkId);
-    }
+
 /*
     @When("the user clicks on Savings link on the Account Summary page")
     public void the_user_clicks_on_Savings_link_on_the_Account_Summary_page() {

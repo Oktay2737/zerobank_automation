@@ -9,10 +9,13 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
     @Before
     public void setUp(){
-        System.out.println("thsi is comming from @Before ");
+        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.out.println("this is comming from @Before ");
     }
     @After
     public void tearDown(Scenario scenario){
